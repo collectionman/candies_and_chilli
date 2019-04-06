@@ -108,8 +108,8 @@ int main()
             } else {
                 playerTwo.changeStateToLost(); ;
             }
+            round++ ; // pasa a la siguiente ronda
         }
-        round++ ; // pasa a la siguiente ronda
 
         std::cout << std::endl ;
     }
