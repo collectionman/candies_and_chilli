@@ -67,10 +67,10 @@ int main()
     std::cout << "-------------------------------------------------------------------------" << std::endl ;
     std::cout << "Total de caramelos: " << candies << std::endl ;
 
+    int round = 0 ;
 
-    while ( !playerOne.hasLost() && !playerTwo.hasLost() ) {
+    while ( !playerOne.hasLost() && !playerTwo.hasLost() ) { // mientras ninguno de los dos haya perdido
         int candiesTaked = 0 ;
-        int round = 0 ;
 
         std::cout << "Ronda " << round << std::endl ;
 
