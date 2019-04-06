@@ -109,10 +109,9 @@ int main()
                 playerTwo.changeStateToLost(); ;
             }
         }
-
-        std::cout << std::endl ;
         round++ ; // pasa a la siguiente ronda
 
+        std::cout << std::endl ;
     }
 
     // verifica quien perdió
